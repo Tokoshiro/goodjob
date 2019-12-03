@@ -4,10 +4,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.EstadoMisActividadesFragment"
-    android:background="#EE46BEB6">
+    android:background="#f4fcf6">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estado de"
+            android:textStyle="bold"
+            android:textColor="#FF9800"
+            android:textSize="24dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:text="mis postulaciones"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="24dp" />
+
+
+    </LinearLayout>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rvMisActividades"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"/>
 </FrameLayout>

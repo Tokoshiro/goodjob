@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="200dp"
-    android:layout_width="match_parent">
-
-    <android.support.constraint.ConstraintLayout
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="180dp"
     android:layout_width="match_parent"
-    android:layout_height="160dp"
-        android:layout_marginTop="20dp"
-    android:background="@drawable/degradado_estados_mis_actividades">
+    android:background="#f4fcf6"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/border_estado_mis_actividades">
 
         <TextView
             android:id="@+id/textView3"
@@ -84,4 +88,5 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvFecha" />
     </android.support.constraint.ConstraintLayout>
+
 </LinearLayout>
