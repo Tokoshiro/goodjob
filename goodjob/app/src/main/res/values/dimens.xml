@@ -24,4 +24,5 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="title_elevation">4dp</dimen>
     <dimen name="text_size_listado_productos_espera">16sp</dimen>
+    <dimen name="text_size_titulos_fragment">24sp</dimen>
 </resources>
